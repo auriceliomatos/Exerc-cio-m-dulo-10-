@@ -22,28 +22,28 @@ $('#cep').mask('00000-000', {
     placeholder: '012345-678'
 })
 
-// foi observado erro no codigo 'requerido' corrigido para 'requerid'
+// foi observado erro no codigo 'requerido' corrigido para 'requerid'// segue a correção professor 'required'
 
 $('form').validate({
     rules: {
         nome: {
-            requerid: true
+            requered: true
         },
         email: {
-            requerid: true,
+            requered: true,
             email: true
         },
         telefone: {
-            requerid: true
+            required: true
         },
         endereco: {
-            requerid: true,
+            required: true,
         },
         cep: {
-            requerid: true
+            required: true
         },
         cpf: {
-            requerid: true
+            required: true
         },
     },
     submitHandler: function (form) {
