@@ -4,7 +4,7 @@
 $(document).ready(function () {
     $('#carousel-imagens').slick({
         autoplay: true,
-        arrows: false,
+        arrows: false
     })
 })
 
@@ -27,23 +27,23 @@ $('#cep').mask('00000-000', {
 $('form').validate({
     rules: {
         nome: {
-            requerid: true
+            required: true
         },
         email: {
-            requerid: true,
+            required: true,
             email: true
         },
         telefone: {
-            requirid: true
+            required: true
         },
         endereco: {
-            requirid: true,
+            required: true,
         },
         cep: {
-            requirid: true
+            required: true
         },
         cpf: {
-            requirid: true
+            required: true
         },
     },
     submitHandler: function (form) {
