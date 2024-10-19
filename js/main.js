@@ -27,23 +27,23 @@ $('#cep').mask('00000-000', {
 $('form').validate({
     rules: {
         nome: {
-            requered: true
+            requerid: true
         },
         email: {
-            requered: true,
+            requerid: true,
             email: true
         },
         telefone: {
-            required: true
+            requirid: true
         },
         endereco: {
-            required: true,
+            requirid: true,
         },
         cep: {
-            required: true
+            requirid: true
         },
         cpf: {
-            required: true
+            requirid: true
         },
     },
     submitHandler: function (form) {
