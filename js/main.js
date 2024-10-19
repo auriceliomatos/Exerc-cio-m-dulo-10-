@@ -46,6 +46,9 @@ $('form').validate({
             required: true
         },
     },
+     messages: {
+            nome:'por favar, insira o seu nome'
+        },
     submitHandler: function (form) {
         alert("Sua requisição foi enviada para análise, parabéns pela aquisição!");
         form.reset();
@@ -53,7 +56,6 @@ $('form').validate({
     invalidHandler: function (form, validator) {
         alert("Por favor, preencha os campos para prosseguir com a compra!");
     }
-    
 })
 
 
