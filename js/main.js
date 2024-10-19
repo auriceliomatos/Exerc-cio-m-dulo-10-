@@ -22,7 +22,7 @@ $('#cep').mask('00000-000', {
     placeholder: '012345-678'
 })
 
-// foi observado erro no codigo 'requerido' corrigido para 'requerid'// segue a correção professor 'required'
+// foi observado erro no codigo 'requerido' corrigido para 'requerid'// segue a segunda correção professor 'required'
 
 $('form').validate({
     rules: {
